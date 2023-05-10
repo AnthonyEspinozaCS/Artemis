@@ -319,10 +319,6 @@
   }
   
   /* Navigation */
-  nav {
-	margin-left: auto;
-  }
-
   .primary-navigation {
 	padding: 0;
 	margin: 0;
@@ -550,10 +546,9 @@ border-radius: 10px;
 .about-us__article h2::after {
     content: " ";
     position: absolute;
-    width: 100%;
+    width: 60px;
     height: 100%;
     top: 0px;
-    right: -135px;
 
     background-image: url(/src/circuit.svg);
     background-size: contain;
@@ -563,7 +558,7 @@ border-radius: 10px;
 }
 
 .about-us__article:nth-of-type(even) h2::after {
-    left: -140px;
+    left: -60px;
 }
 
 .about-us__article ul {
