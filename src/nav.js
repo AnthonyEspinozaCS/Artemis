@@ -15,7 +15,7 @@ navToggle.addEventListener("click", () => {
 
 function bio(number) {
   const bio = document.getElementById(`bio-${number}`);
-  console.log(bio);
+  console.log(number);
   bio.classList.toggle("hidden");
   bio.classList.toggle("flex");
 }
