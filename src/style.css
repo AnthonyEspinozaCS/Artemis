@@ -376,7 +376,7 @@
 	width: 15vw;
 	height: 100%;
 	background-image: url(/src/globe.png);
-	background-size: cover;
+	background-size: contain;
     background-position: center;
 	opacity: 0.5;
   }
@@ -543,7 +543,7 @@ flex-direction: column;
 .about-us__article h2 {
     position: relative;
     display: block;
-width: fit-content;
+width: 12ch;
 padding: 1rem 1rem 1rem 0;
 
 font-weight: 700;
@@ -587,7 +587,7 @@ border-radius: 10px;
 }
 
 .about-us__article li {
-    flex-basis: calc(350px - 1rem);
+    flex-basis: calc(450px - 1rem);
     display: flex;
     gap: 1rem;
     margin-inline: auto;
