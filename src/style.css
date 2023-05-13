@@ -700,7 +700,6 @@ border-radius: 10px;
     justify-content: space-between;
     min-width: min(80rem, 95vw);
     margin-inline: auto;
-    padding: 1rem 0rem;
   }
   
   .footer__logo {
@@ -727,7 +726,7 @@ border-radius: 10px;
   
   footer ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 01rem;
@@ -740,7 +739,7 @@ border-radius: 10px;
   }
   
   footer a {
-    height: 100px;
+    height: 175px;
     font-size: var(--fs-550);
     font-family: var(--ff-sans-normal);
     font-weight: 700;
@@ -764,5 +763,19 @@ border-radius: 10px;
   
     .footer__logo {
       height: 175px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .footer__section {
+        padding: 1rem 0rem;
+    }
+
+    footer a {
+        height: 100px;
+    }
+
+    footer ul {
+        flex-direction: row;
     }
   }
