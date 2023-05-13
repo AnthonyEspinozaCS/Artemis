@@ -299,7 +299,8 @@
   
 	align-items: center;
 	background: rgb(0,11,79);
-	background: var(--gradient)
+	background: var(--gradient);
+    box-shadow: 5px 5px 2px var(--blue);
   }
   
   .mobile-nav-toggle {
@@ -554,9 +555,9 @@ border-radius: 10px;
 -webkit-text-fill-color: transparent;
 }
 
-.about-us__article:nth-of-type(even) h2 {
+/* .about-us__article:nth-of-type(even) h2 {
     margin-left: auto;
-}
+} */
 
 .about-us__article h2::after {
     content: " ";
@@ -572,9 +573,9 @@ border-radius: 10px;
     z-index: -1;
 }
 
-.about-us__article:nth-of-type(even) h2::after {
+/* .about-us__article:nth-of-type(even) h2::after {
     left: -60px;
-}
+} */
 
 .about-us__article ul {
     display: flex;
