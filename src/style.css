@@ -293,6 +293,7 @@
   }
   
   .primary-header {
+    gap: 1rem;
 	width: 100%;
 	max-width: 100%;
 	height: 100px;
@@ -300,7 +301,7 @@
 	align-items: center;
 	background: rgb(0,11,79);
 	background: var(--gradient);
-    box-shadow: 5px 5px 2px var(--blue);
+    box-shadow: 0px 5px 2px var(--blue);
   }
   
   .mobile-nav-toggle {
@@ -373,12 +374,25 @@
   }
 
   .header-pic {
-	width: 15vw;
-	height: 100%;
+	width: 100px;
+	height: 100px;
+  margin-left: 1rem;
 	background-image: url(/src/globe-full.png);
 	background-size: cover;
-    background-position: center;
+  background-position: center;
 	opacity: 0.5;
+  }
+
+  .header-link {
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  .header-link h2 {
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px var(--white);
+    letter-spacing: 2px;
   }
   
   .logo {
@@ -482,7 +496,7 @@
 	transform: translateX(-50%);
 	
 	box-shadow: 5px 5px 2px var(--blue);
-	border-radius: 5px;
+	border-radius: 0px 0px 5px 5px;
 }
 
 .hero__image::after {
@@ -500,7 +514,7 @@
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	border-radius: 5px;
+	border-radius: 0px 0px 5px 5px;
 }
 
 .hero__p {
@@ -544,7 +558,7 @@ flex-direction: column;
     position: relative;
     display: block;
 width: fit-content;
-margin: 1rem 0rem 1rem 2.5rem;
+margin: 1rem 0rem 1rem 3.75rem;
 
 font-weight: 700;
 letter-spacing: 1px;
