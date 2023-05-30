@@ -705,6 +705,44 @@ border-radius: 10px;
    margin-inline: auto;
  }
 
+.contact {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.contact__left, .contact__right {
+  width: 100%;
+}
+
+.contact__left a, .contact__right a{
+  display: flex;
+  width: fit-content;
+  padding: .5rem 0;
+
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.contact__right img {
+  padding-inline: 3px;
+}
+
+.contact__info {
+  font-size: var(--fs-550);
+  border-bottom: 2px solid var(--dark);
+}
+
+.contact h2 {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .contact__left, .contact__right {
+    width: calc(50% - 1rem);
+  }
+}
+
  footer {
     background: var(--gradient);
   }
