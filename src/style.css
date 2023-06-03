@@ -39,9 +39,9 @@
   *::before,
   *::after {
 	box-sizing: border-box;
-/* 	scrollbar-color: transparent transparent;
-	scrollbar-width: 0px;
-	scroll-behavior: smooth; */
+	scrollbar-color: white grey;
+	scrollbar-width: 15px;
+	scroll-behavior: smooth;
   }
   
  /*  *::-webkit-scrollbar {
